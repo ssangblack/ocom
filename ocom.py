@@ -8,6 +8,6 @@ while True:
     h = int(now[11:13])
     m = int(now[14:16])
     if h == hour and m == minute :
-        webbrowser.open(url)
+        urlopen(url)
         break
 
